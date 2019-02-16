@@ -4,14 +4,16 @@ import "./App.css";
 import NavBar from "./Componentes/NavBar.js";
 import Login from "./Componentes/Login.js";
 
+
 class App extends Component {
   render() {
     return (
       <div className="App">
+        
         <NavBar>
           
         </NavBar>
-        <Login></Login>
+        {/*<Login></Login>*/}
       </div>
     );
   }

@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from './logouber.PNG';
+import Login from './Login.js';
 import {
   Collapse,
   Navbar,
@@ -12,6 +13,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
+  import {Router} from 'react-router-dom';
 
 export default class NavigationBar extends React.Component {
   constructor(props) {
@@ -36,7 +38,7 @@ export default class NavigationBar extends React.Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="/components/">Components</NavLink>
+                <NavLink href="/components/">Login</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>

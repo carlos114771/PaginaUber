@@ -4,6 +4,7 @@ import {Col,Button,Form, FormGroup,Label,Input,FormText} from 'reactstrap';
 export default class LoginForm extends React.Component{
     render(){
         return(
+            
             <Form>
                 <FormGroup row>
                     <Label for="Nombre"sm={2}>Nombre</Label>
@@ -44,3 +45,4 @@ export default class LoginForm extends React.Component{
         );
     }
 }
+
